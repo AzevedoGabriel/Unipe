@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Integrando JS</title>
+    <script>
+        //aqui dentro é código JS
+        console.log('Que coisa legal cara, sextou na faculdade!');
+        var nome = "Gabriel Dantas";
+        var idade = 23;
+        var peso = 98;
+        var programador = true;
+
+        console.log('Nome' + nome + '. O tipo de nome é ' + typeof(nome));
+        console.log('Idade ' + idade + '. O tipo de idade é ' + typeof(idade));
+        console.log('Peso ' + peso + '. O tipo de peso é ' + typeof(peso));
+        console.log('É programador? ' + programador + '. O tipo de programador é ' + typeof(programador));
+
+        var alunos = ['Gabriel', 'Rafael', 'Rafaela', 'Camila'];
+        console.log(`O primeiro elemento é ${alunos[0]}`);
+        //alert(alunos[3]);
+
+        var aluno = {
+            nome: 'Gabriel Dantas',
+            idade: 23,
+            peso: 98,
+            programador: true
+        };
+        console.log(aluno.idade);
+
+    </script>
+    <!--
+        <script src="primeiro.js"></script>
+    -->
+</head>
+<body style="background-color: rgb(255, 241, 243);">
+    <h1  style="color: rgb(85, 212, 255);">Formas de integrar o JS no HTML</h1>
+    <h2>Primeira forma:</h2>
+     <p>Velit occaecat magna est est. Id eu labore sint non Lorem eu voluptate et.
+        Ea ullamco aute ad ullamco est pariatur aliqua cillum et sint laboris ad. 
+        Irure consequat laboris adipisicing laboris consectetur anim do consectetur 
+        qui dolor voluptate cupidatat nulla quis.</p>
+     <input type="button" value="Clique-me!" onclick="alert('Botão clicado!')">
+
+</body>
+</html>
