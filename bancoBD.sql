@@ -46,11 +46,11 @@ INSERT INTO Banco VALUES (1, "Banco do Brasil");
 INSERT INTO Banco VALUES (4, "CEF");
 
 INSERT INTO Agencia VALUES (4, 322, "Av. Walfredo Macedo Brandao, 1139");
-INSERT INTO Agencia VALUES (1, 1253, "Rua BancÃ¡rio SÃ©rgio Guerra, 17");
+INSERT INTO Agencia VALUES (1, 1253, "Rua Bancário Sérgio Guerra, 17");
 
-INSERT INTO Cliente VALUES ("111.222.333-44", "Bruna Andrade", "F", "Rua JosÃ© Firmino Ferreira, 1050");
-INSERT INTO Cliente VALUES ("666.777.888-99", "Radegondes Silva", "M", "Av. EpitÃ¡cio Pessoa, 1008");
-INSERT INTO Cliente VALUES ("555.444.777-33", "Miguel Xavier", "M", "Rua BancÃ¡rio SÃ©rgio Guerra, 640");
+INSERT INTO Cliente VALUES ("111.222.333-44", "Bruna Andrade", "F", "Rua José Firmino Ferreira, 1050");
+INSERT INTO Cliente VALUES ("666.777.888-99", "Radegondes Silva", "M", "Av. Epitácio Pessoa, 1008");
+INSERT INTO Cliente VALUES ("555.444.777-33", "Miguel Xavier", "M", "Rua Bancário Sérgio Guerra, 640");
 
 INSERT INTO Conta VALUES ("11765-2", 22745.05, 2, 322);
 INSERT INTO Conta VALUES ("21010-7", 3100.96, 1, 1253);
@@ -68,5 +68,3 @@ UPDATE Cliente SET email="radegondes.silva@gmail.com" WHERE nome="Radegondes Sil
 UPDATE Conta SET saldo=saldo*1.1 WHERE numero_conta="21010-7";
 UPDATe Cliente SET nome="Bruna Fernandes" WHERE nome="Bruna Andrade";
 UPDATE Conta SET tipo_conta=3 WHERE saldo>=10000.00;
-
-
